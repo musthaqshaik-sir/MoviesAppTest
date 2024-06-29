@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [MoviesAppTest]">
+  <test thread-count="4" parallel="tests" name="HomePageTest(failed)">
+    <classes>
+      <class name="HomePageTest">
+        <methods>
+          <include name="contacttextt"/>
+          <include name="after"/>
+          <include name="websitelogo"/>
+          <include name="testplaybutton"/>
+          <include name="before"/>
+          <include name="testheading"/>
+        </methods>
+      </class> <!-- HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+  <test thread-count="4" parallel="tests" name="AccountPageTest(failed)">
+    <classes>
+      <class name="AccountPageTest">
+        <methods>
+          <include name="before"/>
+          <include name="logoutbutton"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- AccountPageTest -->
+    </classes>
+  </test> <!-- AccountPageTest(failed) -->
+  <test thread-count="4" parallel="tests" name="SearchPageTest(failed)">
+    <classes>
+      <class name="SearchPageTest">
+        <methods>
+          <include name="searching"/>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- SearchPageTest -->
+    </classes>
+  </test> <!-- SearchPageTest(failed) -->
+  <test thread-count="4" parallel="tests" name="HeaderSectionTest(failed)">
+    <classes>
+      <class name="HeaderSectionTest">
+        <methods>
+          <include name="after"/>
+          <include name="navbar"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- HeaderSectionTest -->
+    </classes>
+  </test> <!-- HeaderSectionTest(failed) -->
+</suite> <!-- Failed suite [MoviesAppTest] -->
